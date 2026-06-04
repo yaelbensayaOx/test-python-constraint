@@ -5,9 +5,10 @@ description = "Test fixture for OXDEV-67183 — Python version constraint blocks
 authors = ["Yael <yael.bensaya@ox.security>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python =  ">=3.7,<3.8"
 Pillow = "9.5.0"
 requests = "2.28.0"
+pandas = "1.5.3"
 
 [build-system]
 requires = ["poetry-core"]
